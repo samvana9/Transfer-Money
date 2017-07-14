@@ -1,0 +1,90 @@
+body {
+    font-family: 'Kanit';
+    font-size: 15px;    
+}
+header {
+  padding: 10px 10px 10px 8%;
+  border-bottom: 2px solid rgb(238, 112, 51);
+}
+header >.logo{
+  width: 20%;
+}
+.content{
+  background: url(../assets/background.jpg) 100% 100%;
+  padding-top: 40px; 
+}
+
+.panel-default {
+  -webkit-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.95);
+  -moz-box-shadow:    1px 1px 10px 0px rgba(50, 50, 50, 0.95);
+  box-shadow:         1px 1px 10px 0px rgba(50, 50, 50, 0.95);
+  border-color: rgb(12,131,151);
+}
+.panel-default>.panel-heading {
+  color: #fff;
+  background-color: rgb(12,131,151);
+  text-align: center;
+}
+.img-icon{
+  float: left;
+  width: 20px;
+}
+.form-control, .form-control:focus, .input-group-addon {
+  border-top: none;
+  border-left: none;
+  border-radius: 0;
+  border-right: none;
+  box-shadow: none;
+  position: relative;
+  top: -9px;
+  font-size: 17px;
+  padding: 0;
+  height: 28px;
+  color: #999;
+  font-family: 'Kanit';
+  font-size: 15px;  
+}
+.input-group-addon{
+  background: none;
+}
+.form-group > label{
+  font-size: 11px;
+}
+.btn-orange{
+  color: #fff;
+  background-color: rgb(238, 112, 51);
+  border-color: #8c8c8c;
+  border: none;
+  border-radius: 0;
+  width: 40%;
+}
+
+.table{
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 0;
+}
+.table>tbody>tr>td{
+  vertical-align: middle;
+}
+.date{
+  color: #999;
+}
+.merchant-logo{
+  width: 40px;
+  height: 40px;
+}
+.bold{
+  font-weight: bold;
+}
+.trans-type{
+  font-size: 11px;
+  color: #666;
+}
+@media only screen and (min-width: 768px) {
+  .content .row{
+    width: 90%;
+    margin: 0 auto;
+  }
+}
